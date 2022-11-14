@@ -1,0 +1,34 @@
+:root{
+	--color-1-tipo: rgba(red);
+	--color-2-tipo: rgba(blue);
+    --color-3-tipo: rgba(green);
+}
+
+.container{
+	background-color:var(--color-3-tipo);
+	width:100%;
+	height:98vh;
+    overflow:hidden;
+    vertical-align: center;
+    text-align: center;
+}
+.cardinfo{
+	background-color:var(--color-2-tipo);
+	margin: auto;
+	font-size: 1em;
+}
+.cardpersonal{
+	margin: auto;
+	background-color:var(--1-tipo);
+	margin-top:15%;
+	width: 20%;
+	height: 12vh;
+	overflow: hidden;
+	border-radius: 25px 25px;
+	transition: width 2s,height: 2s;
+}
+.cardimagen img{
+	width: 20%;
+	height: 20%;
+	border-radius: 25px 25px;
+}
